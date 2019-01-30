@@ -1,0 +1,13 @@
+tabella: giocatori
+
+id: primary_key | auto_increment | unique |not_null
+nome: varchar(15) | not_null
+cognome: varchar(15) | not_null
+nazionalità: varchar(20)
+data di nascita: date
+altezza in cm: smallint
+ruolo: varchar(15)
+numero maglia: tinyint | unique
+Squadra attuale: varchar(20) | not_null
+% falli : tinyint
+% rimbalzi : tinyint
